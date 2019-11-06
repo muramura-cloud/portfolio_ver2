@@ -166,10 +166,37 @@
   }
 }
 
+//service
+.service {
+  background-color: $heavyblue;
+  padding: 80px 0;
+  @include sp() {
+    padding-top: 0;
+  }
+  h4 {
+    font-size: 2.5rem;
+  }
+}
+.service-box {
+  margin-top: 3rem;
+  padding: 1rem;
+}
+.table {
+  color: $white;
+  font-size: 2rem;
+}
+.fa-laptop-code {
+  font-size: 13rem;
+  @include center();
+}
+
 //contact
 .contact {
   padding: 80px 0 150px;
   color: black;
+  @include sp() {
+    padding-top: 0;
+  }
   .heading {
     position: relative;
     &::before,&::after {

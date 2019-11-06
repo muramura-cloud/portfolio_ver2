@@ -30,6 +30,16 @@
   }
 }
 
+//上下左右中央揃え
+@mixin center {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 //自動ベンダープレフィックス
 @mixin PropertySetPrefix($property,$value) {
   @each $prefix in $set-prefix {

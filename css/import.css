@@ -303,9 +303,50 @@ body {
   }
 }
 
+.service {
+  background-color: #167DA6;
+  padding: 80px 0;
+}
+
+@media (max-width: 768px) {
+  .service {
+    padding-top: 0;
+  }
+}
+
+.service h4 {
+  font-size: 2.5rem;
+}
+
+.service-box {
+  margin-top: 3rem;
+  padding: 1rem;
+}
+
+.table {
+  color: #f2f2f2;
+  font-size: 2rem;
+}
+
+.fa-laptop-code {
+  font-size: 13rem;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 .contact {
   padding: 80px 0 150px;
   color: black;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding-top: 0;
+  }
 }
 
 .contact .heading {
