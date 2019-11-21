@@ -226,6 +226,10 @@ body {
   transform: scale(1.2);
 }
 
+.card-img-box {
+  overflow: hidden;
+}
+
 .card-title {
   margin: 1rem;
   font-size: 2rem;
